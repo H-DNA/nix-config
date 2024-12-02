@@ -22,6 +22,7 @@
     racket
     python3
     lua-language-server
+    marksman
   ];
 
   imports = [
