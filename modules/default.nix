@@ -30,7 +30,7 @@
     ./git
     ./gui
     ./hardware
-    ./ibus
+    ./fcitx
     ./services
     ./zsh
   ];
