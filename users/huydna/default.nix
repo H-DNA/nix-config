@@ -30,6 +30,7 @@
       nodePackages_latest.eslint
       typescript
       obsidian
+      hbase
     ];
     shell = pkgs.zsh;
   };
