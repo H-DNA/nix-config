@@ -14,7 +14,6 @@
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" ];
     packages = with pkgs; [
-      firefox
       tree
       discord
       ruby

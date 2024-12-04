@@ -23,6 +23,7 @@
     python3
     lua-language-server
     marksman
+    firefox
   ];
 
   imports = [
