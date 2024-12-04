@@ -24,6 +24,7 @@
     lua-language-server
     marksman
     firefox
+    unzip
   ];
 
   imports = [
