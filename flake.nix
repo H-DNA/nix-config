@@ -6,15 +6,15 @@
 
   outputs = { self, nixpkgs, home-manager }: {
     nixosConfigurations = {
-      hell = nixpkgs.lib.nixosSystem {
+      hell-nixos = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
-          ./default.nix
+          ./hosts
           {
             imports = [
               home-manager.nixosModules.home-manager
             ];
-          }
+          } 
         ];
       };
     };

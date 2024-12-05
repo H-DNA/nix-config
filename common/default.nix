@@ -1,6 +1,8 @@
 { pkgs, ... }:
 
 {
+  nixpkgs.config.allowUnfree = true; 
+
   environment.systemPackages = with pkgs; [
     vim
     gh
@@ -26,15 +28,17 @@
     firefox
     unzip
     xdg-utils
+    bat
   ];
 
   imports = [
     ./fonts
-    ./git
-    ./gui
-    ./hardware
-    ./ibus
-    ./services
-    ./zsh
+    ./git.nix
+    ./wayland
+    ./speaker.nix
+    ./microphone.nix
+    ./ibus.nix
+    ./ssh.nix
+    ./zsh.nix
   ];
 }
