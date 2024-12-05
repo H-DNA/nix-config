@@ -16,7 +16,7 @@
     fzf
     ripgrep
     postgresql_16
-    docker_27
+    docker_26
     uv
     curl
     racket
