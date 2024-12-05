@@ -25,6 +25,7 @@
     marksman
     firefox
     unzip
+    xdg-utils
   ];
 
   imports = [
