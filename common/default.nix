@@ -22,8 +22,10 @@
     uv
     curl
     racket
+    jdk
     python3
     lua-language-server
+    jdt-language-server
     marksman
     firefox
     unzip
