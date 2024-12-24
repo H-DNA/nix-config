@@ -49,6 +49,7 @@
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "video" ];
     packages = with pkgs; [
+      obs-studio
       tree
       discord
       ruby
@@ -64,7 +65,6 @@
       nodePackages_latest.eslint
       typescript
       obsidian
-      hbase
     ];
     shell = pkgs.zsh;
   };
