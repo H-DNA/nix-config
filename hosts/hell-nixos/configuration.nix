@@ -27,7 +27,7 @@
     keyMap = "us";
   };
  
-  system.stateVersion = "24.05";
+  system.stateVersion = "25.05";
 
   # User
   imports = [
@@ -40,7 +40,7 @@
     programs.zoxide.enableZshIntegration = true;
     fonts.fontconfig.enable = true;
     home = {
-      stateVersion = "24.05";
+      stateVersion = "25.05";
       username = "huydna";
     };
   };
