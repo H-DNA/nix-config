@@ -1,7 +1,8 @@
-{ ... }:
+{ hostname, arch, nixpkgs, ... }:
 
 {
   imports = [
-    ./x86_64-linux
+    ./common
+    ./${arch}
   ];
 }

@@ -1,22 +1,26 @@
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    home-manager.url = "github:nix-community/home-manager/master";
   };
-
-  outputs = { self, nixpkgs, home-manager }: {
-    nixosConfigurations = {
-      x86_64-linux = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
+ 
+  outputs = { self, nixpkgs }: { 
+    nixosConfigurations = let
+      lib = nixpkgs.lib;
+      hosts = [ "x86_64-linux" ];
+      hostname = "hell";
+      default-username = "huydna";
+    in lib.foldl (res: arch: lib.recursiveUpdate res {
+      ${arch} = nixpkgs.lib.nixosSystem {
+        system = arch;
+        specialArgs = {
+          inherit arch;
+          inherit hostname;
+          inherit default-username;
+        };
         modules = [
           ./hosts
-          {
-            imports = [
-              home-manager.nixosModules.home-manager
-            ];
-          } 
         ];
       };
-    };
+    }) {} hosts;
   };
 }
