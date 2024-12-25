@@ -2,6 +2,6 @@
 
 {
   imports = [
-    ./hell-nixos
+    ./x86_64-linux
   ];
 }
