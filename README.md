@@ -1,4 +1,4 @@
-# nix-config
+# Nix configuration
 
 - To add a host profile `h`:
   1. Add `h` to the `hosts` attribute sets in `flake.nix`.
