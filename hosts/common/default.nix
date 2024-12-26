@@ -42,6 +42,7 @@
     zoxide
     cmake
     wayland-scanner
+    pkg-config
   ];
 
   imports = [
