@@ -40,6 +40,8 @@
     xdg-utils
     bat
     zoxide
+    cmake
+    wayland-scanner
   ];
 
   imports = [
