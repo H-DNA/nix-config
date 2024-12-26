@@ -13,6 +13,7 @@
       deno
       go
       clang
+      clang-tools
       erlang_27
       vscode-extensions.vue.volar
       vscode-extensions.vue.vscode-typescript-vue-plugin
