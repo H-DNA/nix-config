@@ -27,6 +27,9 @@
       postgresql_16
       docker_26
       jdk
+      php
+      apacheHttpd
+      mysql84
     ];
   };
 }
