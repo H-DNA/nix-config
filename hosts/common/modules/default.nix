@@ -11,5 +11,6 @@
     ./ibus.nix
     ./ssh.nix
     ./zsh.nix
+    ./keyboard.nix
   ];
 }
