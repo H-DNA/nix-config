@@ -13,7 +13,7 @@
     grim
     brightnessctl
     waybar
-    i3blocks
+    i3status
     swaynotificationcenter
   ];
 
