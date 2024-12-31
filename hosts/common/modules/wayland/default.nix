@@ -14,6 +14,7 @@
     brightnessctl
     waybar
     i3blocks
+    swaynotificationcenter
   ];
 
   # No need if enable wayland but just add it here
