@@ -13,6 +13,7 @@
     grim
     brightnessctl
     waybar
+    i3blocks
   ];
 
   # No need if enable wayland but just add it here

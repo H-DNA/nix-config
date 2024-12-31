@@ -12,5 +12,6 @@
     ./ssh.nix
     ./zsh.nix
     ./keyboard.nix
+    ./battery.nix
   ];
 }
