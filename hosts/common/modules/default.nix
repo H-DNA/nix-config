@@ -13,5 +13,6 @@
     ./zsh.nix
     ./keyboard.nix
     ./battery.nix
+    ./clipboard.nix
   ];
 }
