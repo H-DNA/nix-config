@@ -43,6 +43,7 @@
     cmake
     wayland-scanner
     pkg-config
+    zathura
   ];
 
   imports = [
