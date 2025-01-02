@@ -30,6 +30,7 @@
       php
       apacheHttpd
       mysql84
+      typst
     ];
   };
 }
