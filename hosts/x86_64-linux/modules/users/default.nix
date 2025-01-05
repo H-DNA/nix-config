@@ -31,6 +31,8 @@
       apacheHttpd
       mysql84
       typst
+      tinymist
+      typstyle
     ];
   };
 }
