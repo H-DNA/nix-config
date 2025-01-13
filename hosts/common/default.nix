@@ -41,8 +41,6 @@
     bat
     zoxide
     cmake
-    wayland-scanner
-    pkg-config
     zathura
     nix-index
   ];
