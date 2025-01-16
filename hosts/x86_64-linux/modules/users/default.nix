@@ -33,6 +33,7 @@
       typst
       tinymist
       typstyle
+      ruff
     ];
   };
 }
