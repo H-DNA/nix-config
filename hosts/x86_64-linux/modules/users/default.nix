@@ -34,6 +34,7 @@
       tinymist
       typstyle
       ruff
+      melonDS
     ];
   };
 }
