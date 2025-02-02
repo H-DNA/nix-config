@@ -28,6 +28,7 @@
     tmux
     wget
     gcc
+    gdb
     stow
     gnumake
     fzf
