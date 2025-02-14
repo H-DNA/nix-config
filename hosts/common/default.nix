@@ -44,6 +44,8 @@
     cmake
     zathura
     nix-index
+    quickemu
+    qemu
   ];
 
   imports = [
