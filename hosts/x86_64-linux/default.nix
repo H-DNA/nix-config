@@ -13,6 +13,8 @@
       "56374ac9a461dade"
     ];
   };
+  networking.firewall.allowedTCPPorts = [ 2377 7946 ];
+  networking.firewall.allowedUDPPorts = [ 4789 ];
 
   imports = [
     ./hardware-configuration.nix
