@@ -13,8 +13,12 @@
       "56374ac9a461dade"
     ];
   };
-  networking.firewall.allowedTCPPorts = [ 2377 7946 ];
-  networking.firewall.allowedUDPPorts = [ 4789 ];
+  networking.firewall.allowedTCPPorts = [ 2377 7946 4789 ];
+  networking.firewall.allowedUDPPorts = [ 2377 7946 4789 ];
+
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true;
+  services.blueman.enable = true;
 
   imports = [
     ./hardware-configuration.nix
