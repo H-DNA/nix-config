@@ -46,6 +46,7 @@
     nix-index
     quickemu
     qemu
+    ghostty
   ];
 
   imports = [
