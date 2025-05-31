@@ -35,6 +35,7 @@
       typstyle
       ruff
       melonDS
+      texlab
     ];
   };
 }
