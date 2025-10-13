@@ -36,6 +36,7 @@
       ruff
       melonDS
       texlab
+      slack
     ];
   };
 }
