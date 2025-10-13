@@ -39,6 +39,7 @@
       slack
       yarn
       pnpm
+      _1password-gui
     ];
   };
 }
