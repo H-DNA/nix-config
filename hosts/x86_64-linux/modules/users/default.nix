@@ -37,6 +37,8 @@
       melonDS
       texlab
       slack
+      yarn
+      pnpm
     ];
   };
 }
