@@ -41,6 +41,7 @@
       pnpm
       _1password-gui
       claude-code
+      lazygit
     ];
   };
 }
