@@ -40,6 +40,7 @@
       yarn
       pnpm
       _1password-gui
+      claude-code
     ];
   };
 }
